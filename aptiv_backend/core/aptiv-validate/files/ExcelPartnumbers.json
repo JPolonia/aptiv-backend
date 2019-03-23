@@ -1,0 +1,1997 @@
+{
+    "CMP": {},
+    "HP1": {},
+    "SM1": {
+        "28239685": {
+            "09357553": {
+                "description": "FERRITE-1500 OHM",
+                "qty": "1"
+            },
+            "09364045": {
+                "description": "DIO-SHTKY,SMA",
+                "qty": "1"
+            },
+            "09369130": {
+                "description": "XSTR-NFET,DUAL,SO8",
+                "qty": "3"
+            },
+            "09390230": {
+                "description": "CAP-SM,0603,1000PF",
+                "qty": "27"
+            },
+            "09393692": {
+                "description": "CAP-SM,ELR,100UF,10V",
+                "qty": "4"
+            },
+            "09395481": {
+                "description": "CAP-TA,SM,15UF,1",
+                "qty": "9"
+            },
+            "09395639": {
+                "description": "FERRITE-1000,0603",
+                "qty": "1"
+            },
+            "09395930": {
+                "description": "CAP-SM,EL,22UF,16V",
+                "qty": "6"
+            },
+            "09395932": {
+                "description": "CAP-SM,EL,47UF,16V",
+                "qty": "4"
+            },
+            "09396553": {
+                "description": "RES-SM,47K,1/16W,5%",
+                "qty": "1"
+            },
+            "09396905": {
+                "description": "CAP-SM,1000PF",
+                "qty": "31"
+            },
+            "09397191": {
+                "description": "NETWORK-10K OHM",
+                "qty": "4"
+            },
+            "09397241": {
+                "description": "CAP-SM,18PF,0603",
+                "qty": "1"
+            },
+            "09397943": {
+                "description": "CAP-SM,0.1UF,50V",
+                "qty": "15"
+            },
+            "09398300": {
+                "description": "IC-VR SNGL,NCV1117DTARKG, ADJ, LDO, 1A, DPAK-3",
+                "qty": "1"
+            },
+            "09398577": {
+                "description": "CAP-SM,0.22UF,0603",
+                "qty": "13"
+            },
+            "09398651": {
+                "description": "CAP-SM,0603,.022UF",
+                "qty": "4"
+            },
+            "09398652": {
+                "description": "CAP-SM,0603,X7R,0.0",
+                "qty": "1"
+            },
+            "09398660": {
+                "description": "CAP-SM,0603,X7R,470",
+                "qty": "2"
+            },
+            "09398664": {
+                "description": "CAP-SM,0603,NPO,100",
+                "qty": "4"
+            },
+            "09398665": {
+                "description": "CAP-SM,0603,Y5V,1UF",
+                "qty": "6"
+            },
+            "09399016": {
+                "description": "CAP-SM,TA,10UF,10%",
+                "qty": "6"
+            },
+            "09399018": {
+                "description": "CAP-SM,TA,47UF,10%",
+                "qty": "1"
+            },
+            "09399019": {
+                "description": "CAP-SM,TA,47UF,10%",
+                "qty": "1"
+            },
+            "09399021": {
+                "description": "CAP-SM,TA,100UF,10%",
+                "qty": "2"
+            },
+            "09399567": {
+                "description": "XSTAL-12MHZ,SM",
+                "qty": "1"
+            },
+            "09399575": {
+                "description": "FERRITE-470 OHM,060",
+                "qty": "9"
+            },
+            "09399576": {
+                "description": "DIO-SURGE,DO-218AB",
+                "qty": "2"
+            },
+            "09399766": {
+                "description": "INDUCTOR-39NH,5%,SM",
+                "qty": "1"
+            },
+            "09399809": {
+                "description": "CAP-SM,2200PF,10%",
+                "qty": "6"
+            },
+            "09399823": {
+                "description": "CAP-SM,8.2PF,+/-.50",
+                "qty": "1"
+            },
+            "09399825": {
+                "description": "CAP-SM,12PF,5% 50V",
+                "qty": "1"
+            },
+            "09399827": {
+                "description": "CAP-SM,18PF,5% 50V",
+                "qty": "3"
+            },
+            "09399833": {
+                "description": "CAP-SM,56PF,5% 50V",
+                "qty": "2"
+            },
+            "09399839": {
+                "description": "CAP-SM,180PF,5% 50V",
+                "qty": "3"
+            },
+            "09399840": {
+                "description": "CAP-SM,220PF,5% 50V",
+                "qty": "4"
+            },
+            "09399841": {
+                "description": "CAP-SM,270PF,5% 50V",
+                "qty": "3"
+            },
+            "09399873": {
+                "description": "CAP-SM,2.2UF,10% 16",
+                "qty": "5"
+            },
+            "09399874": {
+                "description": "CAP-SM,1.0UF,10% 25",
+                "qty": "4"
+            },
+            "09400218": {
+                "description": "XSTAL-41.6MHZ,SM",
+                "qty": "1"
+            },
+            "09400971": {
+                "description": "HEADER-18POS,F,V,1M",
+                "qty": "1"
+            },
+            "09401902": {
+                "description": "CAP-EL,SM,470UF +/-20%,25V",
+                "qty": "3"
+            },
+            "09401941": {
+                "description": "HEADER-18POS,F,V,1M",
+                "qty": "1"
+            },
+            "09402119": {
+                "description": "IC-DICE2, AM/FM TUNER, TEF6730HW",
+                "qty": "1"
+            },
+            "09402704": {
+                "description": "CAP-SM,0.1UF,16V,10",
+                "qty": "23"
+            },
+            "09402711": {
+                "description": "CAP-SM,4.7UF,25V",
+                "qty": "1"
+            },
+            "09402715": {
+                "description": "CAP-SM,22.0UF,16V",
+                "qty": "2"
+            },
+            "09402726": {
+                "description": "CAP-SM,3900PF,50V,1",
+                "qty": "1"
+            },
+            "16031186": {
+                "description": "RES-SM, 1206 27, 5%",
+                "qty": "2"
+            },
+            "16031218": {
+                "description": "RES-SM,1206 560, 5%",
+                "qty": "1"
+            },
+            "16057208": {
+                "description": "XSTR-NPN,SOT23",
+                "qty": "2"
+            },
+            "16058157": {
+                "description": "RES-SM,1210 1.5 10%",
+                "qty": "1"
+            },
+            "16058203": {
+                "description": "RES-SM,1210 120 5%",
+                "qty": "1"
+            },
+            "16064843": {
+                "description": "XSTR-PNP,SOT23",
+                "qty": "2"
+            },
+            "16074417": {
+                "description": "DIO-SI,SM,SOT23",
+                "qty": "2"
+            },
+            "16084378": {
+                "description": "XSTR-NPN,SOT23",
+                "qty": "2"
+            },
+            "16087922": {
+                "description": "RES-SM,12, 1/8W 5%",
+                "qty": "6"
+            },
+            "16150520": {
+                "description": "DIODE-SIGNAL,A",
+                "qty": "1"
+            },
+            "16150636": {
+                "description": "XSTR-PNP,SOT23",
+                "qty": "2"
+            },
+            "16167328": {
+                "description": "RES-SM,51 OHM,0.1W",
+                "qty": "1"
+            },
+            "16167332": {
+                "description": "RES-SM,75OHM,0.1W",
+                "qty": "1"
+            },
+            "16167333": {
+                "description": "RES-SM,82OHM,0.1W",
+                "qty": "1"
+            },
+            "16167335": {
+                "description": "RES-SM,100,0.1W",
+                "qty": "29"
+            },
+            "16167339": {
+                "description": "RES-SM,150,0.1W",
+                "qty": "2"
+            },
+            "16167343": {
+                "description": "RES-SM,220,0.1W",
+                "qty": "4"
+            },
+            "16167347": {
+                "description": "RES-SM,330,0.1W",
+                "qty": "2"
+            },
+            "16167351": {
+                "description": "RES-SM,470,0.1W",
+                "qty": "1"
+            },
+            "16167359": {
+                "description": "RES-SM,1.0K,0.1W,5%",
+                "qty": "7"
+            },
+            "16167361": {
+                "description": "RES-SM,1.2K,0.1W,5%",
+                "qty": "1"
+            },
+            "16167367": {
+                "description": "RES-SM,2.2K,0.1W,5%",
+                "qty": "3"
+            },
+            "16167375": {
+                "description": "RES-SM,4.7K,0.1W,5%",
+                "qty": "10"
+            },
+            "16167383": {
+                "description": "RES-SM,10K,0.1W,5%",
+                "qty": "34"
+            },
+            "16167387": {
+                "description": "RES-SM,15K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167391": {
+                "description": "RES-SM,22K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167394": {
+                "description": "RES-SM,30K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167395": {
+                "description": "RES-SM,33K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167399": {
+                "description": "RES-SM,47K,0.1W,5%",
+                "qty": "4"
+            },
+            "16167403": {
+                "description": "RES-SM,68K,0.1W,5%",
+                "qty": "4"
+            },
+            "16167407": {
+                "description": "RES-SM,100K,0.1W,5%",
+                "qty": "5"
+            },
+            "16167423": {
+                "description": "RES-SM,470K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167452": {
+                "description": "CAP-SM,0603,100PF",
+                "qty": "20"
+            },
+            "16167453": {
+                "description": "CAP-SM,0603,120PF",
+                "qty": "2"
+            },
+            "16167458": {
+                "description": "CAP-SM,0603,330PF",
+                "qty": "9"
+            },
+            "16167464": {
+                "description": "CAP-SM,0603,1000PF",
+                "qty": "1"
+            },
+            "16167467": {
+                "description": "CAP-SM,0603,1800PF",
+                "qty": "2"
+            },
+            "16167470": {
+                "description": "CAP-SM,0603,3300PF",
+                "qty": "3"
+            },
+            "16167475": {
+                "description": "CAP-SM,0603,8200PF",
+                "qty": "2"
+            },
+            "16167476": {
+                "description": "CAP-SM,0603,.01UF",
+                "qty": "23"
+            },
+            "16167493": {
+                "description": "CAP-SM,0603,10PF",
+                "qty": "3"
+            },
+            "16167499": {
+                "description": "CAP-SM,0603,33PF",
+                "qty": "2"
+            },
+            "16167504": {
+                "description": "CAP-SM,0603,82PF",
+                "qty": "1"
+            },
+            "16171362": {
+                "description": "RES-SM,.0.1W5%10",
+                "qty": "3"
+            },
+            "16171370": {
+                "description": "RES-SM,.0.1W5%22",
+                "qty": "6"
+            },
+            "16171374": {
+                "description": "RES-SM,.0.1W5%33OHM",
+                "qty": "1"
+            },
+            "16171378": {
+                "description": "RES-SM,.0.1W5%47OHM",
+                "qty": "1"
+            },
+            "16171416": {
+                "description": "RES-SM,0 OHM,.1/8W",
+                "qty": "2"
+            },
+            "16171572": {
+                "description": "CHOKE-SM,1000UH",
+                "qty": "1"
+            },
+            "16188437": {
+                "description": "DIODE-ZENER,SOD123",
+                "qty": "2"
+            },
+            "16195330": {
+                "description": "XSTAL-32.768K,SM",
+                "qty": "1"
+            },
+            "16208150": {
+                "description": "CAP-SM,0.1UF",
+                "qty": "1"
+            },
+            "16211192": {
+                "description": "DIODE-VARACT,FM,SM",
+                "qty": "1"
+            },
+            "16214042": {
+                "description": "DIO-SHTKY,SMB",
+                "qty": "1"
+            },
+            "16215305": {
+                "description": "INDUCTOR-47NH,SM",
+                "qty": "1"
+            },
+            "16228496": {
+                "description": "DIO-RECT,SMA",
+                "qty": "2"
+            },
+            "16230822": {
+                "description": "RES-SM,0 OHM 0.1W",
+                "qty": "10"
+            },
+            "16234289": {
+                "description": "DIO-SHTKY, SMA",
+                "qty": "3"
+            },
+            "16236182": {
+                "description": "DIO-SIGNAL,SOT23",
+                "qty": "2"
+            },
+            "16237555": {
+                "description": "RES-SM,29.4OHM0.1W",
+                "qty": "1"
+            },
+            "16237622": {
+                "description": "RES-SM,147OHM, 0.1W",
+                "qty": "2"
+            },
+            "16237693": {
+                "description": "RES-SM,806OHM,0.1W",
+                "qty": "1"
+            },
+            "16237702": {
+                "description": "RES-SM,1.00K,0.1W,1%",
+                "qty": "2"
+            },
+            "16237717": {
+                "description": "RES-SM,1.43K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237763": {
+                "description": "RES-SM,4.32K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237786": {
+                "description": "RES-SM,7.50K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237798": {
+                "description": "RES-SM,10.0K,0.1W,1%",
+                "qty": "3"
+            },
+            "16237830": {
+                "description": "RES-SM,21.5K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237836": {
+                "description": "RES-SM,24.9K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237850": {
+                "description": "RES-SM,34.8K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237865": {
+                "description": "RES-SM,49.9K0.1 W1%",
+                "qty": "1"
+            },
+            "16237866": {
+                "description": "RES-SM,51.1K0.1 W1%",
+                "qty": "2"
+            },
+            "16237870": {
+                "description": "RES-SM,56.2K 0.1W1%",
+                "qty": "2"
+            },
+            "16237878": {
+                "description": "RES-SM,68.1K 0.1W1%",
+                "qty": "2"
+            },
+            "16237888": {
+                "description": "RES-SM,86.6K0.1W1%",
+                "qty": "2"
+            },
+            "16237894": {
+                "description": "RES-SM,100K,0.1W1%",
+                "qty": "3"
+            },
+            "16237898": {
+                "description": "RES-SM,110K, 0.1W1%",
+                "qty": "1"
+            },
+            "16237929": {
+                "description": "RES-SM,232K,0.1W1%",
+                "qty": "1"
+            },
+            "16237949": {
+                "description": "RES-SM,374K,0.1W1%",
+                "qty": "2"
+            },
+            "16245848": {
+                "description": "INDUCTOR-6.8UH,SM",
+                "qty": "1"
+            },
+            "16247252": {
+                "description": "CAP-SM,ELR,10UF,16V",
+                "qty": "3"
+            },
+            "16247605": {
+                "description": "INDUCTOR-2.2UH,5%",
+                "qty": "1"
+            },
+            "16247606": {
+                "description": "INDUCTOR-2.7UH,5%",
+                "qty": "1"
+            },
+            "16247645": {
+                "description": "INDUCTOR-0.18UH,5%",
+                "qty": "1"
+            },
+            "16247656": {
+                "description": "INDUCTOR-0.56UH,5%",
+                "qty": "1"
+            },
+            "16247678": {
+                "description": "INDUCTOR-56.0UH,5%",
+                "qty": "1"
+            },
+            "16253873": {
+                "description": "CAP-TA,SM,100UF,10V",
+                "qty": "4"
+            },
+            "16257518": {
+                "description": "RES-SM,0.02OHM,1W1%",
+                "qty": "3"
+            },
+            "16268827": {
+                "description": "DIO-VARACT,SOD323",
+                "qty": "1"
+            },
+            "16268828": {
+                "description": "DIO-PIN,SOD323",
+                "qty": "2"
+            },
+            "28013150": {
+                "description": "LABEL-MFG,FORMAT 2D",
+                "qty": "1"
+            },
+            "28022675": {
+                "description": "INDUCTOR-10UH,SM,20%",
+                "qty": "2"
+            },
+            "28023169": {
+                "description": "INDUCTOR-22UH,SM,20%",
+                "qty": "3"
+            },
+            "28026630": {
+                "description": "DIO-PIN, SOT363",
+                "qty": "1"
+            },
+            "28041990": {
+                "description": "IC-SAF7730/1TUN312A",
+                "qty": "1"
+            },
+            "28063184": {
+                "description": "IC-OMAP5905, REV2.1",
+                "qty": "1"
+            },
+            "28071870": {
+                "description": "OSCILLATOR-48MHZ,SM",
+                "qty": "1"
+            },
+            "28072817": {
+                "description": "DIO-SURGE,SOT23DLBI",
+                "qty": "1"
+            },
+            "28075488": {
+                "description": "XSTR-PFET,SO8",
+                "qty": "1"
+            },
+            "28087912": {
+                "description": "IC-AUTHENTICATION",
+                "qty": "1"
+            },
+            "28107325": {
+                "description": "DIO-ZENER, SOD323",
+                "qty": "2"
+            },
+            "28114099": {
+                "description": "VARISTOR-SM,0.05J",
+                "qty": "3"
+            },
+            "28116926": {
+                "description": "RESONATOR-SM,33.8688MHZ",
+                "qty": "1"
+            },
+            "28155429": {
+                "description": "IC-DSLR, DUAL SW, LINEAR REG",
+                "qty": "2"
+            },
+            "28163877": {
+                "description": "INDUCTOR- 330UH,5%,SM",
+                "qty": "1"
+            },
+            "28189585": {
+                "description": "IC-SDRAM, IS45S16100E, TSOP50",
+                "qty": "2"
+            },
+            "28206322": {
+                "description": "IC-ASIC,ACCORDO,STA1052,ROM3.3",
+                "qty": "1"
+            },
+            "28207191": {
+                "description": "FERRITE BEAD-SM,220OHM, 25%,0603",
+                "qty": "1"
+            },
+            "28239686": {
+                "description": "CIR BD S/A-SM2,MID",
+                "qty": "1"
+            },
+            "28336324": {
+                "description": "IC-FLASH, M29W160EB70N3F,PROG",
+                "qty": "1"
+            }
+        },
+        "28239692": {
+            "09357553": {
+                "description": "FERRITE-1500 OHM",
+                "qty": "1"
+            },
+            "09362984": {
+                "description": "IC-OPAMP,LMV358 MMX",
+                "qty": "1"
+            },
+            "09364045": {
+                "description": "DIO-SHTKY,SMA",
+                "qty": "1"
+            },
+            "09369130": {
+                "description": "XSTR-NFET,DUAL,SO8",
+                "qty": "3"
+            },
+            "09390230": {
+                "description": "CAP-SM,0603,1000PF",
+                "qty": "27"
+            },
+            "09393692": {
+                "description": "CAP-SM,ELR,100UF,10V",
+                "qty": "4"
+            },
+            "09395481": {
+                "description": "CAP-TA,SM,15UF,1",
+                "qty": "9"
+            },
+            "09395639": {
+                "description": "FERRITE-1000,0603",
+                "qty": "1"
+            },
+            "09395930": {
+                "description": "CAP-SM,EL,22UF,16V",
+                "qty": "7"
+            },
+            "09395932": {
+                "description": "CAP-SM,EL,47UF,16V",
+                "qty": "4"
+            },
+            "09396553": {
+                "description": "RES-SM,47K,1/16W,5%",
+                "qty": "1"
+            },
+            "09396905": {
+                "description": "CAP-SM,1000PF",
+                "qty": "31"
+            },
+            "09397191": {
+                "description": "NETWORK-10K OHM",
+                "qty": "4"
+            },
+            "09397241": {
+                "description": "CAP-SM,18PF,0603",
+                "qty": "1"
+            },
+            "09397943": {
+                "description": "CAP-SM,0.1UF,50V",
+                "qty": "15"
+            },
+            "09398300": {
+                "description": "IC-VR SNGL,NCV1117DTARKG, ADJ, LDO, 1A, DPAK-3",
+                "qty": "1"
+            },
+            "09398577": {
+                "description": "CAP-SM,0.22UF,0603",
+                "qty": "14"
+            },
+            "09398651": {
+                "description": "CAP-SM,0603,.022UF",
+                "qty": "4"
+            },
+            "09398652": {
+                "description": "CAP-SM,0603,X7R,0.0",
+                "qty": "1"
+            },
+            "09398660": {
+                "description": "CAP-SM,0603,X7R,470",
+                "qty": "2"
+            },
+            "09398664": {
+                "description": "CAP-SM,0603,NPO,100",
+                "qty": "4"
+            },
+            "09398665": {
+                "description": "CAP-SM,0603,Y5V,1UF",
+                "qty": "6"
+            },
+            "09399016": {
+                "description": "CAP-SM,TA,10UF,10%",
+                "qty": "6"
+            },
+            "09399018": {
+                "description": "CAP-SM,TA,47UF,10%",
+                "qty": "1"
+            },
+            "09399019": {
+                "description": "CAP-SM,TA,47UF,10%",
+                "qty": "1"
+            },
+            "09399021": {
+                "description": "CAP-SM,TA,100UF,10%",
+                "qty": "2"
+            },
+            "09399567": {
+                "description": "XSTAL-12MHZ,SM",
+                "qty": "1"
+            },
+            "09399575": {
+                "description": "FERRITE-470 OHM,060",
+                "qty": "9"
+            },
+            "09399576": {
+                "description": "DIO-SURGE,DO-218AB",
+                "qty": "2"
+            },
+            "09399766": {
+                "description": "INDUCTOR-39NH,5%,SM",
+                "qty": "1"
+            },
+            "09399809": {
+                "description": "CAP-SM,2200PF,10%",
+                "qty": "7"
+            },
+            "09399823": {
+                "description": "CAP-SM,8.2PF,+/-.50",
+                "qty": "1"
+            },
+            "09399825": {
+                "description": "CAP-SM,12PF,5% 50V",
+                "qty": "1"
+            },
+            "09399827": {
+                "description": "CAP-SM,18PF,5% 50V",
+                "qty": "4"
+            },
+            "09399833": {
+                "description": "CAP-SM,56PF,5% 50V",
+                "qty": "2"
+            },
+            "09399839": {
+                "description": "CAP-SM,180PF,5% 50V",
+                "qty": "3"
+            },
+            "09399840": {
+                "description": "CAP-SM,220PF,5% 50V",
+                "qty": "4"
+            },
+            "09399841": {
+                "description": "CAP-SM,270PF,5% 50V",
+                "qty": "3"
+            },
+            "09399873": {
+                "description": "CAP-SM,2.2UF,10% 16",
+                "qty": "5"
+            },
+            "09399874": {
+                "description": "CAP-SM,1.0UF,10% 25",
+                "qty": "4"
+            },
+            "09400218": {
+                "description": "XSTAL-41.6MHZ,SM",
+                "qty": "1"
+            },
+            "09400971": {
+                "description": "HEADER-18POS,F,V,1M",
+                "qty": "1"
+            },
+            "09401902": {
+                "description": "CAP-EL,SM,470UF +/-20%,25V",
+                "qty": "3"
+            },
+            "09401941": {
+                "description": "HEADER-18POS,F,V,1M",
+                "qty": "1"
+            },
+            "09402119": {
+                "description": "IC-DICE2, AM/FM TUNER, TEF6730HW",
+                "qty": "1"
+            },
+            "09402704": {
+                "description": "CAP-SM,0.1UF,16V,10",
+                "qty": "30"
+            },
+            "09402711": {
+                "description": "CAP-SM,4.7UF,25V",
+                "qty": "1"
+            },
+            "09402715": {
+                "description": "CAP-SM,22.0UF,16V",
+                "qty": "2"
+            },
+            "09402726": {
+                "description": "CAP-SM,3900PF,50V,1",
+                "qty": "1"
+            },
+            "16031186": {
+                "description": "RES-SM, 1206 27, 5%",
+                "qty": "2"
+            },
+            "16031218": {
+                "description": "RES-SM,1206 560, 5%",
+                "qty": "1"
+            },
+            "16057208": {
+                "description": "XSTR-NPN,SOT23",
+                "qty": "2"
+            },
+            "16058157": {
+                "description": "RES-SM,1210 1.5 10%",
+                "qty": "1"
+            },
+            "16058203": {
+                "description": "RES-SM,1210 120 5%",
+                "qty": "1"
+            },
+            "16064843": {
+                "description": "XSTR-PNP,SOT23",
+                "qty": "2"
+            },
+            "16074417": {
+                "description": "DIO-SI,SM,SOT23",
+                "qty": "2"
+            },
+            "16084378": {
+                "description": "XSTR-NPN,SOT23",
+                "qty": "2"
+            },
+            "16087922": {
+                "description": "RES-SM,12, 1/8W 5%",
+                "qty": "6"
+            },
+            "16124326": {
+                "description": "DIODE-SIGNAL,SM",
+                "qty": "1"
+            },
+            "16150520": {
+                "description": "DIODE-SIGNAL,A",
+                "qty": "2"
+            },
+            "16150636": {
+                "description": "XSTR-PNP,SOT23",
+                "qty": "2"
+            },
+            "16167328": {
+                "description": "RES-SM,51 OHM,0.1W",
+                "qty": "1"
+            },
+            "16167332": {
+                "description": "RES-SM,75OHM,0.1W",
+                "qty": "1"
+            },
+            "16167333": {
+                "description": "RES-SM,82OHM,0.1W",
+                "qty": "2"
+            },
+            "16167335": {
+                "description": "RES-SM,100,0.1W",
+                "qty": "35"
+            },
+            "16167339": {
+                "description": "RES-SM,150,0.1W",
+                "qty": "2"
+            },
+            "16167343": {
+                "description": "RES-SM,220,0.1W",
+                "qty": "4"
+            },
+            "16167347": {
+                "description": "RES-SM,330,0.1W",
+                "qty": "2"
+            },
+            "16167351": {
+                "description": "RES-SM,470,0.1W",
+                "qty": "1"
+            },
+            "16167355": {
+                "description": "RES-SM,680,0.1W",
+                "qty": "1"
+            },
+            "16167359": {
+                "description": "RES-SM,1.0K,0.1W,5%",
+                "qty": "9"
+            },
+            "16167361": {
+                "description": "RES-SM,1.2K,0.1W,5%",
+                "qty": "1"
+            },
+            "16167367": {
+                "description": "RES-SM,2.2K,0.1W,5%",
+                "qty": "3"
+            },
+            "16167375": {
+                "description": "RES-SM,4.7K,0.1W,5%",
+                "qty": "10"
+            },
+            "16167383": {
+                "description": "RES-SM,10K,0.1W,5%",
+                "qty": "37"
+            },
+            "16167387": {
+                "description": "RES-SM,15K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167391": {
+                "description": "RES-SM,22K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167394": {
+                "description": "RES-SM,30K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167395": {
+                "description": "RES-SM,33K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167399": {
+                "description": "RES-SM,47K,0.1W,5%",
+                "qty": "4"
+            },
+            "16167403": {
+                "description": "RES-SM,68K,0.1W,5%",
+                "qty": "4"
+            },
+            "16167407": {
+                "description": "RES-SM,100K,0.1W,5%",
+                "qty": "5"
+            },
+            "16167423": {
+                "description": "RES-SM,470K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167452": {
+                "description": "CAP-SM,0603,100PF",
+                "qty": "20"
+            },
+            "16167453": {
+                "description": "CAP-SM,0603,120PF",
+                "qty": "2"
+            },
+            "16167458": {
+                "description": "CAP-SM,0603,330PF",
+                "qty": "9"
+            },
+            "16167464": {
+                "description": "CAP-SM,0603,1000PF",
+                "qty": "1"
+            },
+            "16167467": {
+                "description": "CAP-SM,0603,1800PF",
+                "qty": "2"
+            },
+            "16167470": {
+                "description": "CAP-SM,0603,3300PF",
+                "qty": "3"
+            },
+            "16167475": {
+                "description": "CAP-SM,0603,8200PF",
+                "qty": "2"
+            },
+            "16167476": {
+                "description": "CAP-SM,0603,.01UF",
+                "qty": "27"
+            },
+            "16167493": {
+                "description": "CAP-SM,0603,10PF",
+                "qty": "4"
+            },
+            "16167499": {
+                "description": "CAP-SM,0603,33PF",
+                "qty": "2"
+            },
+            "16167504": {
+                "description": "CAP-SM,0603,82PF",
+                "qty": "1"
+            },
+            "16171362": {
+                "description": "RES-SM,.0.1W5%10",
+                "qty": "5"
+            },
+            "16171370": {
+                "description": "RES-SM,.0.1W5%22",
+                "qty": "6"
+            },
+            "16171374": {
+                "description": "RES-SM,.0.1W5%33OHM",
+                "qty": "1"
+            },
+            "16171378": {
+                "description": "RES-SM,.0.1W5%47OHM",
+                "qty": "1"
+            },
+            "16171416": {
+                "description": "RES-SM,0 OHM,.1/8W",
+                "qty": "2"
+            },
+            "16171572": {
+                "description": "CHOKE-SM,1000UH",
+                "qty": "1"
+            },
+            "16188437": {
+                "description": "DIODE-ZENER,SOD123",
+                "qty": "2"
+            },
+            "16195330": {
+                "description": "XSTAL-32.768K,SM",
+                "qty": "1"
+            },
+            "16208150": {
+                "description": "CAP-SM,0.1UF",
+                "qty": "1"
+            },
+            "16211192": {
+                "description": "DIODE-VARACT,FM,SM",
+                "qty": "1"
+            },
+            "16214042": {
+                "description": "DIO-SHTKY,SMB",
+                "qty": "1"
+            },
+            "16215305": {
+                "description": "INDUCTOR-47NH,SM",
+                "qty": "1"
+            },
+            "16228496": {
+                "description": "DIO-RECT,SMA",
+                "qty": "2"
+            },
+            "16230822": {
+                "description": "RES-SM,0 OHM 0.1W",
+                "qty": "11"
+            },
+            "16234289": {
+                "description": "DIO-SHTKY, SMA",
+                "qty": "3"
+            },
+            "16236182": {
+                "description": "DIO-SIGNAL,SOT23",
+                "qty": "2"
+            },
+            "16237555": {
+                "description": "RES-SM,29.4OHM0.1W",
+                "qty": "1"
+            },
+            "16237622": {
+                "description": "RES-SM,147OHM, 0.1W",
+                "qty": "2"
+            },
+            "16237693": {
+                "description": "RES-SM,806OHM,0.1W",
+                "qty": "1"
+            },
+            "16237702": {
+                "description": "RES-SM,1.00K,0.1W,1%",
+                "qty": "2"
+            },
+            "16237717": {
+                "description": "RES-SM,1.43K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237763": {
+                "description": "RES-SM,4.32K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237786": {
+                "description": "RES-SM,7.50K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237798": {
+                "description": "RES-SM,10.0K,0.1W,1%",
+                "qty": "3"
+            },
+            "16237830": {
+                "description": "RES-SM,21.5K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237836": {
+                "description": "RES-SM,24.9K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237844": {
+                "description": "RES-SM,30.1K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237850": {
+                "description": "RES-SM,34.8K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237863": {
+                "description": "RES-SM,47.5K0.1 W1%",
+                "qty": "1"
+            },
+            "16237865": {
+                "description": "RES-SM,49.9K0.1 W1%",
+                "qty": "1"
+            },
+            "16237866": {
+                "description": "RES-SM,51.1K0.1 W1%",
+                "qty": "2"
+            },
+            "16237870": {
+                "description": "RES-SM,56.2K 0.1W1%",
+                "qty": "2"
+            },
+            "16237878": {
+                "description": "RES-SM,68.1K 0.1W1%",
+                "qty": "2"
+            },
+            "16237888": {
+                "description": "RES-SM,86.6K0.1W1%",
+                "qty": "2"
+            },
+            "16237894": {
+                "description": "RES-SM,100K,0.1W1%",
+                "qty": "3"
+            },
+            "16237898": {
+                "description": "RES-SM,110K, 0.1W1%",
+                "qty": "1"
+            },
+            "16237929": {
+                "description": "RES-SM,232K,0.1W1%",
+                "qty": "1"
+            },
+            "16237949": {
+                "description": "RES-SM,374K,0.1W1%",
+                "qty": "2"
+            },
+            "16245848": {
+                "description": "INDUCTOR-6.8UH,SM",
+                "qty": "1"
+            },
+            "16247252": {
+                "description": "CAP-SM,ELR,10UF,16V",
+                "qty": "6"
+            },
+            "16247605": {
+                "description": "INDUCTOR-2.2UH,5%",
+                "qty": "1"
+            },
+            "16247606": {
+                "description": "INDUCTOR-2.7UH,5%",
+                "qty": "1"
+            },
+            "16247645": {
+                "description": "INDUCTOR-0.18UH,5%",
+                "qty": "1"
+            },
+            "16247656": {
+                "description": "INDUCTOR-0.56UH,5%",
+                "qty": "1"
+            },
+            "16247678": {
+                "description": "INDUCTOR-56.0UH,5%",
+                "qty": "1"
+            },
+            "16253873": {
+                "description": "CAP-TA,SM,100UF,10V",
+                "qty": "4"
+            },
+            "16257518": {
+                "description": "RES-SM,0.02OHM,1W1%",
+                "qty": "3"
+            },
+            "16268827": {
+                "description": "DIO-VARACT,SOD323",
+                "qty": "1"
+            },
+            "16268828": {
+                "description": "DIO-PIN,SOD323",
+                "qty": "2"
+            },
+            "21003719": {
+                "description": "IC-CODEC,TLV320AIC23",
+                "qty": "1"
+            },
+            "28013150": {
+                "description": "LABEL-MFG,FORMAT 2D",
+                "qty": "1"
+            },
+            "28022675": {
+                "description": "INDUCTOR-10UH,SM,20%",
+                "qty": "2"
+            },
+            "28023169": {
+                "description": "INDUCTOR-22UH,SM,20%",
+                "qty": "3"
+            },
+            "28024967": {
+                "description": "CAP-SM, 0.7PF, 50V",
+                "qty": "1"
+            },
+            "28025012": {
+                "description": "CAP-SM, 10PF, 50V, 5%",
+                "qty": "1"
+            },
+            "28025021": {
+                "description": "CAP-SM, 15PF, 50V, 5%",
+                "qty": "1"
+            },
+            "28026630": {
+                "description": "DIO-PIN, SOT363",
+                "qty": "1"
+            },
+            "28041990": {
+                "description": "IC-SAF7730/1TUN312A",
+                "qty": "1"
+            },
+            "28063184": {
+                "description": "IC-OMAP5905, REV2.1",
+                "qty": "1"
+            },
+            "28071870": {
+                "description": "OSCILLATOR-48MHZ,SM",
+                "qty": "1"
+            },
+            "28072817": {
+                "description": "DIO-SURGE,SOT23DLBI",
+                "qty": "1"
+            },
+            "28075488": {
+                "description": "XSTR-PFET,SO8",
+                "qty": "1"
+            },
+            "28087912": {
+                "description": "IC-AUTHENTICATION",
+                "qty": "1"
+            },
+            "28089430": {
+                "description": "ANTENNA-CER, 2.4GHZ",
+                "qty": "1"
+            },
+            "28107325": {
+                "description": "DIO-ZENER, SOD323",
+                "qty": "2"
+            },
+            "28114099": {
+                "description": "VARISTOR-SM,0.05J",
+                "qty": "3"
+            },
+            "28116926": {
+                "description": "RESONATOR-SM,33.8688MHZ",
+                "qty": "1"
+            },
+            "28155429": {
+                "description": "IC-DSLR, DUAL SW, LINEAR REG",
+                "qty": "2"
+            },
+            "28163877": {
+                "description": "INDUCTOR- 330UH,5%,SM",
+                "qty": "1"
+            },
+            "28189585": {
+                "description": "IC-SDRAM, IS45S16100E, TSOP50",
+                "qty": "2"
+            },
+            "28206322": {
+                "description": "IC-ASIC,ACCORDO,STA1052,ROM3.3",
+                "qty": "1"
+            },
+            "28207191": {
+                "description": "FERRITE BEAD-SM,220OHM, 25%,0603",
+                "qty": "1"
+            },
+            "28212315": {
+                "description": "XCVR-BLUETOOTH,HCI,PB",
+                "qty": "1"
+            },
+            "28239693": {
+                "description": "CIR BD S/A-SM2,BT",
+                "qty": "1"
+            },
+            "28336324": {
+                "description": "IC-FLASH, M29W160EB70N3F,PROG",
+                "qty": "1"
+            }
+        },
+        "28239697": {
+            "09357553": {
+                "description": "FERRITE-1500 OHM",
+                "qty": "1"
+            },
+            "09362984": {
+                "description": "IC-OPAMP,LMV358 MMX",
+                "qty": "1"
+            },
+            "09364045": {
+                "description": "DIO-SHTKY,SMA",
+                "qty": "1"
+            },
+            "09369130": {
+                "description": "XSTR-NFET,DUAL,SO8",
+                "qty": "3"
+            },
+            "09390230": {
+                "description": "CAP-SM,0603,1000PF",
+                "qty": "27"
+            },
+            "09393692": {
+                "description": "CAP-SM,ELR,100UF,10V",
+                "qty": "4"
+            },
+            "09395481": {
+                "description": "CAP-TA,SM,15UF,1",
+                "qty": "9"
+            },
+            "09395639": {
+                "description": "FERRITE-1000,0603",
+                "qty": "1"
+            },
+            "09395930": {
+                "description": "CAP-SM,EL,22UF,16V",
+                "qty": "7"
+            },
+            "09395932": {
+                "description": "CAP-SM,EL,47UF,16V",
+                "qty": "4"
+            },
+            "09396553": {
+                "description": "RES-SM,47K,1/16W,5%",
+                "qty": "1"
+            },
+            "09396905": {
+                "description": "CAP-SM,1000PF",
+                "qty": "31"
+            },
+            "09397191": {
+                "description": "NETWORK-10K OHM",
+                "qty": "4"
+            },
+            "09397241": {
+                "description": "CAP-SM,18PF,0603",
+                "qty": "1"
+            },
+            "09397943": {
+                "description": "CAP-SM,0.1UF,50V",
+                "qty": "15"
+            },
+            "09398300": {
+                "description": "IC-VR SNGL,NCV1117DTARKG, ADJ, LDO, 1A, DPAK-3",
+                "qty": "1"
+            },
+            "09398577": {
+                "description": "CAP-SM,0.22UF,0603",
+                "qty": "14"
+            },
+            "09398651": {
+                "description": "CAP-SM,0603,.022UF",
+                "qty": "4"
+            },
+            "09398652": {
+                "description": "CAP-SM,0603,X7R,0.0",
+                "qty": "1"
+            },
+            "09398660": {
+                "description": "CAP-SM,0603,X7R,470",
+                "qty": "2"
+            },
+            "09398664": {
+                "description": "CAP-SM,0603,NPO,100",
+                "qty": "4"
+            },
+            "09398665": {
+                "description": "CAP-SM,0603,Y5V,1UF",
+                "qty": "6"
+            },
+            "09399016": {
+                "description": "CAP-SM,TA,10UF,10%",
+                "qty": "6"
+            },
+            "09399018": {
+                "description": "CAP-SM,TA,47UF,10%",
+                "qty": "1"
+            },
+            "09399019": {
+                "description": "CAP-SM,TA,47UF,10%",
+                "qty": "1"
+            },
+            "09399021": {
+                "description": "CAP-SM,TA,100UF,10%",
+                "qty": "2"
+            },
+            "09399567": {
+                "description": "XSTAL-12MHZ,SM",
+                "qty": "1"
+            },
+            "09399575": {
+                "description": "FERRITE-470 OHM,060",
+                "qty": "9"
+            },
+            "09399576": {
+                "description": "DIO-SURGE,DO-218AB",
+                "qty": "2"
+            },
+            "09399766": {
+                "description": "INDUCTOR-39NH,5%,SM",
+                "qty": "1"
+            },
+            "09399809": {
+                "description": "CAP-SM,2200PF,10%",
+                "qty": "7"
+            },
+            "09399823": {
+                "description": "CAP-SM,8.2PF,+/-.50",
+                "qty": "1"
+            },
+            "09399825": {
+                "description": "CAP-SM,12PF,5% 50V",
+                "qty": "1"
+            },
+            "09399827": {
+                "description": "CAP-SM,18PF,5% 50V",
+                "qty": "4"
+            },
+            "09399833": {
+                "description": "CAP-SM,56PF,5% 50V",
+                "qty": "2"
+            },
+            "09399839": {
+                "description": "CAP-SM,180PF,5% 50V",
+                "qty": "3"
+            },
+            "09399840": {
+                "description": "CAP-SM,220PF,5% 50V",
+                "qty": "4"
+            },
+            "09399841": {
+                "description": "CAP-SM,270PF,5% 50V",
+                "qty": "3"
+            },
+            "09399873": {
+                "description": "CAP-SM,2.2UF,10% 16",
+                "qty": "5"
+            },
+            "09399874": {
+                "description": "CAP-SM,1.0UF,10% 25",
+                "qty": "4"
+            },
+            "09400218": {
+                "description": "XSTAL-41.6MHZ,SM",
+                "qty": "1"
+            },
+            "09401902": {
+                "description": "CAP-EL,SM,470UF +/-20%,25V",
+                "qty": "3"
+            },
+            "09401941": {
+                "description": "HEADER-18POS,F,V,1M",
+                "qty": "1"
+            },
+            "09402119": {
+                "description": "IC-DICE2, AM/FM TUNER, TEF6730HW",
+                "qty": "1"
+            },
+            "09402704": {
+                "description": "CAP-SM,0.1UF,16V,10",
+                "qty": "30"
+            },
+            "09402711": {
+                "description": "CAP-SM,4.7UF,25V",
+                "qty": "1"
+            },
+            "09402715": {
+                "description": "CAP-SM,22.0UF,16V",
+                "qty": "2"
+            },
+            "09402726": {
+                "description": "CAP-SM,3900PF,50V,1",
+                "qty": "1"
+            },
+            "16031186": {
+                "description": "RES-SM, 1206 27, 5%",
+                "qty": "2"
+            },
+            "16031218": {
+                "description": "RES-SM,1206 560, 5%",
+                "qty": "1"
+            },
+            "16057208": {
+                "description": "XSTR-NPN,SOT23",
+                "qty": "2"
+            },
+            "16058157": {
+                "description": "RES-SM,1210 1.5 10%",
+                "qty": "1"
+            },
+            "16058203": {
+                "description": "RES-SM,1210 120 5%",
+                "qty": "1"
+            },
+            "16064843": {
+                "description": "XSTR-PNP,SOT23",
+                "qty": "2"
+            },
+            "16074417": {
+                "description": "DIO-SI,SM,SOT23",
+                "qty": "2"
+            },
+            "16084378": {
+                "description": "XSTR-NPN,SOT23",
+                "qty": "2"
+            },
+            "16087922": {
+                "description": "RES-SM,12, 1/8W 5%",
+                "qty": "6"
+            },
+            "16124326": {
+                "description": "DIODE-SIGNAL,SM",
+                "qty": "1"
+            },
+            "16150520": {
+                "description": "DIODE-SIGNAL,A",
+                "qty": "2"
+            },
+            "16150636": {
+                "description": "XSTR-PNP,SOT23",
+                "qty": "2"
+            },
+            "16167328": {
+                "description": "RES-SM,51 OHM,0.1W",
+                "qty": "1"
+            },
+            "16167332": {
+                "description": "RES-SM,75OHM,0.1W",
+                "qty": "1"
+            },
+            "16167333": {
+                "description": "RES-SM,82OHM,0.1W",
+                "qty": "2"
+            },
+            "16167335": {
+                "description": "RES-SM,100,0.1W",
+                "qty": "37"
+            },
+            "16167339": {
+                "description": "RES-SM,150,0.1W",
+                "qty": "2"
+            },
+            "16167343": {
+                "description": "RES-SM,220,0.1W",
+                "qty": "4"
+            },
+            "16167347": {
+                "description": "RES-SM,330,0.1W",
+                "qty": "2"
+            },
+            "16167351": {
+                "description": "RES-SM,470,0.1W",
+                "qty": "1"
+            },
+            "16167355": {
+                "description": "RES-SM,680,0.1W",
+                "qty": "1"
+            },
+            "16167359": {
+                "description": "RES-SM,1.0K,0.1W,5%",
+                "qty": "9"
+            },
+            "16167361": {
+                "description": "RES-SM,1.2K,0.1W,5%",
+                "qty": "1"
+            },
+            "16167367": {
+                "description": "RES-SM,2.2K,0.1W,5%",
+                "qty": "3"
+            },
+            "16167375": {
+                "description": "RES-SM,4.7K,0.1W,5%",
+                "qty": "12"
+            },
+            "16167383": {
+                "description": "RES-SM,10K,0.1W,5%",
+                "qty": "37"
+            },
+            "16167387": {
+                "description": "RES-SM,15K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167391": {
+                "description": "RES-SM,22K,0.1W,5%",
+                "qty": "3"
+            },
+            "16167394": {
+                "description": "RES-SM,30K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167395": {
+                "description": "RES-SM,33K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167399": {
+                "description": "RES-SM,47K,0.1W,5%",
+                "qty": "4"
+            },
+            "16167403": {
+                "description": "RES-SM,68K,0.1W,5%",
+                "qty": "4"
+            },
+            "16167407": {
+                "description": "RES-SM,100K,0.1W,5%",
+                "qty": "5"
+            },
+            "16167423": {
+                "description": "RES-SM,470K,0.1W,5%",
+                "qty": "2"
+            },
+            "16167452": {
+                "description": "CAP-SM,0603,100PF",
+                "qty": "20"
+            },
+            "16167453": {
+                "description": "CAP-SM,0603,120PF",
+                "qty": "2"
+            },
+            "16167458": {
+                "description": "CAP-SM,0603,330PF",
+                "qty": "9"
+            },
+            "16167464": {
+                "description": "CAP-SM,0603,1000PF",
+                "qty": "1"
+            },
+            "16167467": {
+                "description": "CAP-SM,0603,1800PF",
+                "qty": "2"
+            },
+            "16167470": {
+                "description": "CAP-SM,0603,3300PF",
+                "qty": "3"
+            },
+            "16167475": {
+                "description": "CAP-SM,0603,8200PF",
+                "qty": "2"
+            },
+            "16167476": {
+                "description": "CAP-SM,0603,.01UF",
+                "qty": "27"
+            },
+            "16167493": {
+                "description": "CAP-SM,0603,10PF",
+                "qty": "4"
+            },
+            "16167499": {
+                "description": "CAP-SM,0603,33PF",
+                "qty": "2"
+            },
+            "16167504": {
+                "description": "CAP-SM,0603,82PF",
+                "qty": "1"
+            },
+            "16171362": {
+                "description": "RES-SM,.0.1W5%10",
+                "qty": "5"
+            },
+            "16171370": {
+                "description": "RES-SM,.0.1W5%22",
+                "qty": "6"
+            },
+            "16171374": {
+                "description": "RES-SM,.0.1W5%33OHM",
+                "qty": "1"
+            },
+            "16171378": {
+                "description": "RES-SM,.0.1W5%47OHM",
+                "qty": "1"
+            },
+            "16171416": {
+                "description": "RES-SM,0 OHM,.1/8W",
+                "qty": "2"
+            },
+            "16171572": {
+                "description": "CHOKE-SM,1000UH",
+                "qty": "1"
+            },
+            "16188437": {
+                "description": "DIODE-ZENER,SOD123",
+                "qty": "2"
+            },
+            "16195330": {
+                "description": "XSTAL-32.768K,SM",
+                "qty": "1"
+            },
+            "16208150": {
+                "description": "CAP-SM,0.1UF",
+                "qty": "1"
+            },
+            "16211192": {
+                "description": "DIODE-VARACT,FM,SM",
+                "qty": "1"
+            },
+            "16214042": {
+                "description": "DIO-SHTKY,SMB",
+                "qty": "1"
+            },
+            "16215305": {
+                "description": "INDUCTOR-47NH,SM",
+                "qty": "1"
+            },
+            "16228496": {
+                "description": "DIO-RECT,SMA",
+                "qty": "2"
+            },
+            "16230822": {
+                "description": "RES-SM,0 OHM 0.1W",
+                "qty": "15"
+            },
+            "16234289": {
+                "description": "DIO-SHTKY, SMA",
+                "qty": "3"
+            },
+            "16236182": {
+                "description": "DIO-SIGNAL,SOT23",
+                "qty": "2"
+            },
+            "16237555": {
+                "description": "RES-SM,29.4OHM0.1W",
+                "qty": "1"
+            },
+            "16237622": {
+                "description": "RES-SM,147OHM, 0.1W",
+                "qty": "2"
+            },
+            "16237693": {
+                "description": "RES-SM,806OHM,0.1W",
+                "qty": "1"
+            },
+            "16237702": {
+                "description": "RES-SM,1.00K,0.1W,1%",
+                "qty": "2"
+            },
+            "16237717": {
+                "description": "RES-SM,1.43K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237763": {
+                "description": "RES-SM,4.32K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237786": {
+                "description": "RES-SM,7.50K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237798": {
+                "description": "RES-SM,10.0K,0.1W,1%",
+                "qty": "3"
+            },
+            "16237830": {
+                "description": "RES-SM,21.5K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237836": {
+                "description": "RES-SM,24.9K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237844": {
+                "description": "RES-SM,30.1K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237850": {
+                "description": "RES-SM,34.8K,0.1W,1%",
+                "qty": "1"
+            },
+            "16237863": {
+                "description": "RES-SM,47.5K0.1 W1%",
+                "qty": "1"
+            },
+            "16237865": {
+                "description": "RES-SM,49.9K0.1 W1%",
+                "qty": "1"
+            },
+            "16237866": {
+                "description": "RES-SM,51.1K0.1 W1%",
+                "qty": "2"
+            },
+            "16237870": {
+                "description": "RES-SM,56.2K 0.1W1%",
+                "qty": "2"
+            },
+            "16237878": {
+                "description": "RES-SM,68.1K 0.1W1%",
+                "qty": "2"
+            },
+            "16237888": {
+                "description": "RES-SM,86.6K0.1W1%",
+                "qty": "2"
+            },
+            "16237894": {
+                "description": "RES-SM,100K,0.1W1%",
+                "qty": "3"
+            },
+            "16237898": {
+                "description": "RES-SM,110K, 0.1W1%",
+                "qty": "1"
+            },
+            "16237929": {
+                "description": "RES-SM,232K,0.1W1%",
+                "qty": "1"
+            },
+            "16237949": {
+                "description": "RES-SM,374K,0.1W1%",
+                "qty": "2"
+            },
+            "16245848": {
+                "description": "INDUCTOR-6.8UH,SM",
+                "qty": "1"
+            },
+            "16247252": {
+                "description": "CAP-SM,ELR,10UF,16V",
+                "qty": "6"
+            },
+            "16247605": {
+                "description": "INDUCTOR-2.2UH,5%",
+                "qty": "1"
+            },
+            "16247606": {
+                "description": "INDUCTOR-2.7UH,5%",
+                "qty": "1"
+            },
+            "16247645": {
+                "description": "INDUCTOR-0.18UH,5%",
+                "qty": "1"
+            },
+            "16247656": {
+                "description": "INDUCTOR-0.56UH,5%",
+                "qty": "1"
+            },
+            "16247678": {
+                "description": "INDUCTOR-56.0UH,5%",
+                "qty": "1"
+            },
+            "16253873": {
+                "description": "CAP-TA,SM,100UF,10V",
+                "qty": "4"
+            },
+            "16257518": {
+                "description": "RES-SM,0.02OHM,1W1%",
+                "qty": "3"
+            },
+            "16268827": {
+                "description": "DIO-VARACT,SOD323",
+                "qty": "1"
+            },
+            "16268828": {
+                "description": "DIO-PIN,SOD323",
+                "qty": "2"
+            },
+            "21003719": {
+                "description": "IC-CODEC,TLV320AIC23",
+                "qty": "1"
+            },
+            "28013150": {
+                "description": "LABEL-MFG,FORMAT 2D",
+                "qty": "1"
+            },
+            "28022675": {
+                "description": "INDUCTOR-10UH,SM,20%",
+                "qty": "2"
+            },
+            "28023169": {
+                "description": "INDUCTOR-22UH,SM,20%",
+                "qty": "3"
+            },
+            "28024967": {
+                "description": "CAP-SM, 0.7PF, 50V",
+                "qty": "1"
+            },
+            "28025012": {
+                "description": "CAP-SM, 10PF, 50V, 5%",
+                "qty": "1"
+            },
+            "28025021": {
+                "description": "CAP-SM, 15PF, 50V, 5%",
+                "qty": "1"
+            },
+            "28026630": {
+                "description": "DIO-PIN, SOT363",
+                "qty": "1"
+            },
+            "28041990": {
+                "description": "IC-SAF7730/1TUN312A",
+                "qty": "1"
+            },
+            "28062423": {
+                "description": "FERRITE-600OHM,0603",
+                "qty": "2"
+            },
+            "28063184": {
+                "description": "IC-OMAP5905, REV2.1",
+                "qty": "1"
+            },
+            "28071870": {
+                "description": "OSCILLATOR-48MHZ,SM",
+                "qty": "1"
+            },
+            "28072817": {
+                "description": "DIO-SURGE,SOT23DLBI",
+                "qty": "1"
+            },
+            "28075488": {
+                "description": "XSTR-PFET,SO8",
+                "qty": "1"
+            },
+            "28087912": {
+                "description": "IC-AUTHENTICATION",
+                "qty": "1"
+            },
+            "28089430": {
+                "description": "ANTENNA-CER, 2.4GHZ",
+                "qty": "1"
+            },
+            "28107325": {
+                "description": "DIO-ZENER, SOD323",
+                "qty": "2"
+            },
+            "28114099": {
+                "description": "VARISTOR-SM,0.05J",
+                "qty": "3"
+            },
+            "28116926": {
+                "description": "RESONATOR-SM,33.8688MHZ",
+                "qty": "1"
+            },
+            "28155429": {
+                "description": "IC-DSLR, DUAL SW, LINEAR REG",
+                "qty": "2"
+            },
+            "28163877": {
+                "description": "INDUCTOR- 330UH,5%,SM",
+                "qty": "1"
+            },
+            "28189585": {
+                "description": "IC-SDRAM, IS45S16100E, TSOP50",
+                "qty": "2"
+            },
+            "28206322": {
+                "description": "IC-ASIC,ACCORDO,STA1052,ROM3.3",
+                "qty": "1"
+            },
+            "28207191": {
+                "description": "FERRITE BEAD-SM,220OHM, 25%,0603",
+                "qty": "1"
+            },
+            "28212315": {
+                "description": "XCVR-BLUETOOTH,HCI,PB",
+                "qty": "1"
+            },
+            "28239698": {
+                "description": "CIR BD S/A-SM2,XM",
+                "qty": "1"
+            },
+            "28336324": {
+                "description": "IC-FLASH, M29W160EB70N3F,PROG",
+                "qty": "1"
+            }
+        }
+    },
+    "SM2": {}
+}

@@ -1,0 +1,30 @@
+ERROR: Quantity of partnumber 09390230 in assembly 28239685 SM1 in Excel: 27 different from quantity in PDF: 28
+WARNING: Description of partnumber 09401902 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28207191 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28189585 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28336324 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 09398300 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 09402119 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28155429 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28206322 in assembly 28239685 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28116926 in assembly 28239685 SM1 does not match between PDF and Excel
+ERROR: Quantity of partnumber 09390230 in assembly 28239692 SM1 in Excel: 27 different from quantity in PDF: 28
+WARNING: Description of partnumber 09401902 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28207191 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28189585 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28336324 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 09398300 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 09402119 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28155429 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28206322 in assembly 28239692 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28116926 in assembly 28239692 SM1 does not match between PDF and Excel
+ERROR: Quantity of partnumber 09390230 in assembly 28239697 SM1 in Excel: 27 different from quantity in PDF: 28
+WARNING: Description of partnumber 09401902 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28207191 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28189585 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28336324 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 09398300 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 09402119 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28155429 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28206322 in assembly 28239697 SM1 does not match between PDF and Excel
+WARNING: Description of partnumber 28116926 in assembly 28239697 SM1 does not match between PDF and Excel

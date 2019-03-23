@@ -1,0 +1,37 @@
+{
+    "CMP": {},
+    "HP1": {},
+    "SM1": {
+        "28239685": {
+            "MA010378051": {
+                "description": "MA-SOLDER",
+                "qty": 1
+            },
+            "MA010378060": {
+                "description": "MA-SOLDER",
+                "qty": 1
+            }
+        },
+        "28239692": {
+            "MA010378051": {
+                "description": "MA-SOLDER",
+                "qty": 1
+            },
+            "MA010378060": {
+                "description": "MA-SOLDER",
+                "qty": 1
+            }
+        },
+        "28239697": {
+            "MA010378051": {
+                "description": "MA-SOLDER",
+                "qty": 1
+            },
+            "MA010378060": {
+                "description": "MA-SOLDER",
+                "qty": 1
+            }
+        }
+    },
+    "SM2": {}
+}

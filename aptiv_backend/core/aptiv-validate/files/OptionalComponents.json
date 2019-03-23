@@ -1,0 +1,18 @@
+Last Revision = H
+{
+    "SM1": {
+        "28239685": {
+            "09400971": {
+                "description": "HEADER-18POS,F,V,1M",
+                "qty": 1
+            }
+        },
+        "28239692": {
+            "09400971": {
+                "description": "HEADER-18POS,F,V,1M",
+                "qty": 1
+            }
+        },
+        "28239697": {}
+    }
+}

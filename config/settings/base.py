@@ -42,7 +42,8 @@ USE_TZ = True
 
 DATABASES = {
     "default": env.db(
-        "DATABASE_URL", default="postgres:///aptiv_backend"
+        # "DATABASE_URL", default="postgres:///aptiv_backend
+        "DATABASE_URL", default="postgres://aptiv:1234@localhost:5432/aptivdb"
     ),
 }
 DATABASES["default"]["ATOMIC_REQUESTS"] = True
@@ -76,6 +77,7 @@ THIRD_PARTY_APPS = [
 LOCAL_APPS = [
     "aptiv_backend.users.apps.UsersAppConfig",
     # Your stuff: custom apps go here
+    "aptiv_backend.core.apps.CoreAppConfig",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
@@ -228,7 +230,8 @@ if USE_TZ:
     # http://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-timezone
     CELERY_TIMEZONE = TIME_ZONE
 # http://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-broker_url
-CELERY_BROKER_URL = env("CELERY_BROKER_URL")
+# CELERY_BROKER_URL = env("CELERY_BROKER_URL")
+CELERY_BROKER_URL='redis://localhost:6379/0'
 # http://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-result_backend
 CELERY_RESULT_BACKEND = CELERY_BROKER_URL
 # http://docs.celeryproject.org/en/latest/userguide/configuration.html#std:setting-accept_content
@@ -243,6 +246,7 @@ CELERYD_TASK_TIME_LIMIT = 5 * 60
 # http://docs.celeryproject.org/en/latest/userguide/configuration.html#task-soft-time-limit
 # TODO: set to whatever value is adequate in your circumstances
 CELERYD_TASK_SOFT_TIME_LIMIT = 60
+
 # django-allauth
 # ------------------------------------------------------------------------------
 ACCOUNT_ALLOW_REGISTRATION = env.bool("DJANGO_ACCOUNT_ALLOW_REGISTRATION", True)
