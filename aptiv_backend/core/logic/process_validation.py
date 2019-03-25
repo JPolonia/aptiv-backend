@@ -1,70 +1,3 @@
-import tabula, PyPDF2, re, os, xlrd
-
-# Utility PDF fucntions
-# checks at which column starts the partnumbers
-def check_start_column(dataframe):
-    aux = False
-    col = -1
-    while not aux:
-        col += 1
-        if not type(dataframe[col][0]) == float:
-            if not re.match('\d{5,}', dataframe[col][0]):  # cell has to have 5 or more digits
-                aux = True
-    return col
-
-def add_PartnumberToDictionary(partnumber, description, dictionary):
-    added = True
-    if partnumber in dictionary:
-        dictionary[partnumber]["qty"] += 1
-        if dictionary[partnumber]["description"] != description:
-            added = False
-
-    else:
-        dictionary[partnumber] = {"qty": 1, "description": description}
-    return added
-
-# Parsing Methods
-def pdf_to_tb(path, page):
-    dt = tabula.read_pdf(path, output_format="dataframe", encoding="utf-8", java_options=None, pandas_options=None,
-                         multiple_tables=True, pages=page)
-    return dt  # returns list of the multiple dataframes inside a page
-def pdf_to_tb_area(path, page, xl, yl, xr, yr):  # returns list of dataframes for a specific area
-    df = tabula.read_pdf(path, output_format="dataframe", encoding="utf-8", java_options=None, pandas_options=None,
-                         multiple_tables=True, pages=page, spreadsheet=True, area=(xl, yl, xr, yr))
-    return df
-# End Parsing Methods
-
-# Uitliy Functions for Excel processing
-def get_sheet(name, path):
-    book = xlrd.open_workbook(path)
-    sheet = book.sheet_by_name(name)
-    return sheet
-
-
-def addAssembly(mount, assembly, item_name, dict):
-    if mount in dict:
-        dict[mount][assembly] = item_name
-    else:
-        dict[mount] ={}
-        dict[mount][assembly] = item_name
-
-def addWeight(mount, weight, dict):
-    if mount in dict:
-        if dict[mount]:
-            dict[mount] += int(weight)
-        else:
-            dict[mount] = int(weight)
-
-def get_StartRow(sheet, AssemblyRow, lenth_sheet):
-    startRow = 0
-    for row in range(AssemblyRow, lenth_sheet):
-        if sheet.cell(row, 0).value == "Ll":
-            startRow = row + 1
-            break
-    return startRow
-# End of utility fucntions
-
-
 # Uitlity functions for comparison
 def check_Partnumbers(dictPDF_Partnumbers, dictPDF_OptPartnumbers,  dictExcel_Partnumbers):
     errorList = []
@@ -126,3 +59,30 @@ def existsInDictionary(partnumber, assembly, mount, dictionary):
                 aux = True
     return aux
 # End of utilty functions dor comparison
+
+def processValidation(InfoPDF, InfoExcel):  # Pdf has 4 dict and excel has 2
+
+    # InfoPDF = self.pdf.compare_json
+    # InfoExcel = self.excel.compare_json
+
+    dictionaryPDF = InfoPDF
+    dictionaryExcel = InfoExcel
+
+    dictPDF_Components = dictionaryPDF["Components"]
+    dictPDF_OptComponents = dictionaryPDF["OptionalComponents"]
+    dictPDF_AdditionalFeatures = dictionaryPDF["AdditionalFeatures"]
+    dictPDF_OptAdditionalFeatures = dictionaryPDF["OptionalAdditionalFeatures"]
+    dictExcel_Components = dictionaryExcel["Components"]
+    dictExcel_AdditionalFeatures = dictionaryExcel["AdditionalFeatures"]
+    error_list1 = check_Partnumbers(dictPDF_Components, dictPDF_OptComponents,
+                                    dictExcel_Components)  # validation of inserted components
+    error_list2 = check_Partnumbers(dictPDF_AdditionalFeatures, dictPDF_OptAdditionalFeatures,
+                                    dictExcel_AdditionalFeatures)  # validation of inserted addtional features
+
+    errorList = error_list1
+    for error in range(len(error_list2)):
+        errorList.append(error_list2[error])
+
+    print('\n'.join(errorList))
+
+    return '\n'.join(errorList)

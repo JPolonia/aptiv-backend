@@ -2,7 +2,8 @@ from django.db import models
 from django.conf import settings
 from django.utils.translation import ugettext as _
 
-from .utilities import check_Partnumbers
+from aptiv_backend.core.logic import processValidation
+
 from .pdf import Pdf
 from .excel import Excel
 
@@ -26,34 +27,11 @@ class AptivValidate(models.Model):
         super(AptivValidate, self).save(*args, **kwargs)
 
         if new or update:
-            self.compare()
+            self.output = processValidation(self.pdf.compare_json, self.excel.compare_json)
+            self.save(update=False)
 
-    def compare(self):  # Pdf has 4 dict and excel has 2
 
-        InfoPDF = self.pdf.compare_json
-        InfoExcel = self.excel.compare_json
 
-        dictionaryPDF = InfoPDF
-        dictionaryExcel = InfoExcel
-
-        dictPDF_Components = dictionaryPDF["Components"]
-        dictPDF_OptComponents = dictionaryPDF["OptionalComponents"]
-        dictPDF_AdditionalFeatures = dictionaryPDF["AdditionalFeatures"]
-        dictPDF_OptAdditionalFeatures = dictionaryPDF["OptionalAdditionalFeatures"]
-        dictExcel_Components = dictionaryExcel["Components"]
-        dictExcel_AdditionalFeatures = dictionaryExcel["AdditionalFeatures"]
-        error_list1 = check_Partnumbers(dictPDF_Components, dictPDF_OptComponents,
-                                        dictExcel_Components)  # validation of inserted components
-        error_list2 = check_Partnumbers(dictPDF_AdditionalFeatures, dictPDF_OptAdditionalFeatures,
-                                        dictExcel_AdditionalFeatures)  # validation of inserted addtional features
-
-        errorList = error_list1
-        for error in range(len(error_list2)):
-            errorList.append(error_list2[error])
-
-        self.output = '\n'.join(errorList)
-        print(self.output)
-        self.save(update=False)
 
 
 
