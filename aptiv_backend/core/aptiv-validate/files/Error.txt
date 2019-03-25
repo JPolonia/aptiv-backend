@@ -1,4 +1,0 @@
-09390230	100	CAP-SM,0603,1000PF	27
-
-Foram colocados 27componentes ao invés de 28componentes(no impact report)
-No pdf consta 28componentes, que é o correto.

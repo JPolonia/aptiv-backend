@@ -5,7 +5,7 @@
 {% block content %}
 <!---Init_Component-->
         <!-- Upload form-->
-        <form class="text-center border border-light p-5">
+        <form class="text-center border border-light p-5" enctype="multipart/form-data" method="post">
 
             <h1 class=" mb-4">
                 <i class="fas fa-circle fa-lg align-middle " style="font-size: 0.7rem; color:  rgb(255, 81, 0)"></i>
@@ -26,7 +26,8 @@
                 <div class="form-group">
                     <div class="col-md-12">
                         <span class="btn btn-default btn-file">
-                            <input id="input-2" name="input2[]" type="file" class="file" multiple data-show-upload="true" data-show-caption="true">
+                          {% csrf_token %}
+                            <input id="input-2" name="input2" type="file" class="file" multiple data-show-upload="true" data-show-caption="true">
                         </span>
                     </div>
                 </div>

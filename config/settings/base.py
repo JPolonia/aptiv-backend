@@ -264,3 +264,11 @@ SOCIALACCOUNT_ADAPTER = "aptiv_backend.users.adapters.SocialAccountAdapter"
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+OUTPUT_PATH = 'outputs/'
+UPLOAD_PATH = 'uploads/'
+
+UPLOAD_ROOT = MEDIA_ROOT + '/' + UPLOAD_PATH
+
+ERROR_PATH = UPLOAD_PATH + 'errors/'
+
+ERROR_ROOT = MEDIA_ROOT + '/' + ERROR_PATH
