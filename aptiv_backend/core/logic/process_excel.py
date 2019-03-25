@@ -47,9 +47,10 @@ def processExcel(path):
     nRowsIDM = sheet_IDM.nrows
     startRowIDM = 0
     for row in range(nRowsIDM):
-        if sheet_IDM.cell(row, 0) == "Name":
+        dummy = sheet_IDM.cell_value(row, 0)
+        if sheet_IDM.cell_value(row, 0) == "Name":
             startRowIDM = row + 1
-        break
+            break
     # End of Getting IMD assembly star row
 
     # Getting assemblies that were revised/ mounts and weights
@@ -67,6 +68,7 @@ def processExcel(path):
                 lenth_assembly += 1
         assembly = name[:(lenth_assembly)]
         # End of Retrieving assembly number
+
 
         item_name = sheet_IDM.cell(row, 1).value
         weight = sheet_IDM.cell(row, 6).value

@@ -26,7 +26,7 @@ class AptivValidateAdmin(admin.ModelAdmin):
     pdf_file.short_description = "PDF File"
 
     def excel_model(self, obj):
-        return format_html("<a href='{url}'>{name}</a>", url=obj.excel.get_admin_url(), name=obj.excel)
+        return format_html("<a href='{url}'>{name}</a>", url=obj.excel.get_admin_url(), name=obj.excel.get_admin_url())
     excel_model.short_description = "Excel Process"
 
     def excel_file(self, obj):
