@@ -1,11 +1,13 @@
 {% extends "base.html" %}
-
+{% load admin_urls %}
 {% load static %}
 
 {% block content %}
 <!---Init_Component-->
         <!-- Upload form-->
         <form class="text-center border border-light p-5" enctype="multipart/form-data" method="post">
+
+             <a class="nav-link" href="{% url 'admin:index' %}">Painel Admin</a>
 
             <h1 class=" mb-4">
                 <i class="fas fa-circle fa-lg align-middle " style="font-size: 0.7rem; color:  rgb(255, 81, 0)"></i>
