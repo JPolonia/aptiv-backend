@@ -22,17 +22,91 @@
 {#    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">#}
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-fileinput/4.3.1/css/fileinput.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
     <!-- This file stores project-specific CSS -->
     
     <link href="{% static 'css/project.min.css' %}" rel="stylesheet">
     <style>
-      .vertical-center {
-        margin-top: 10%;
-      }
+      {#.vertical-center {#}
+      {#  margin-top: 10%;#}
 
     .align-middle {
     vertical-align: middle!important;
 }
+    </style>
+    <style>
+        {##backend{#}
+        {#  background-color: rgba(7, 0, 3, 0.84) !important;#}
+        {#  color: rgba(255, 79, 29, 0.77) !important;#}
+        {#  font-size: 2rem;#}
+
+        {##backend:hover{#}
+        {#  background-color: rgba(0, 0, 0, 0.95) !important#}
+
+         #top-right{
+           transition: text-shadow 0.3s ease-in-out;
+           position:absolute;
+           top: 10px;
+           left:20px;
+           font-size: 50px;
+            }
+        #top-right:hover{
+          text-shadow:  3px 2px rgba(88, 88, 88, 0.31);
+        }
+
+        h3,
+        p {
+            text-align: center;
+        }
+
+        .form-group {
+            margin: 30px;
+        }
+
+        .file-upload .form-control {
+            height: 150px;
+            outline: 1px dashed #ccc;
+            outline-offset: -15px;
+            background-color: #eee;
+        }
+
+        .file-upload .form-control .before {
+           transition: text-shadow 0.3s ease-in-out;
+            color: rgb(75, 75, 75);
+            font-size: 5em;
+            left: 0;
+            right: 0;
+            display: block;
+            margin: 3px auto;
+            text-align: center;
+        }
+        .file-upload .form-control:hover .before{
+              text-shadow:  3px 5px rgba(88, 88, 88, 0.31);
+        }
+
+
+        .file-upload .form-control:after {
+            content: attr(data-message);
+            left: 0;
+            right: 0;
+            bottom: 0;
+            text-align: center;
+            display: block;
+        }
+
+        .file-upload .form-control input[type="file"] {
+            cursor: pointer;
+            opacity: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+        }
+
     </style>
     
     
@@ -104,6 +178,8 @@
     {% block javascript %}
 
       <!-- Your stuff: Third-party javascript libraries go here -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 {#      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>#}
@@ -113,7 +189,72 @@
       <!-- place project specific Javascript in this file -->
       
       <script src="{% static 'js/project.js' %}"></script>
-      
+
+      <script>
+        $('input[type="file"]').on('change', function(e){
+          var fileName = e.target.files[0].name;
+          if (fileName) {
+            $(e.target).parent().attr('data-message', fileName);
+            var id = this.id;
+            var extension = fileName.replace(/^.*\./, '');
+            extension = extension.toLowerCase();
+            if(id === "document_filePDF") {
+              var icon1 = $( "#pdfIcon" );
+                if (extension === "pdf") {
+                  $(e.target).parent().attr('data-message', fileName);
+                  icon1.removeClass().addClass("fas fa-file-pdf");
+                  $(icon1).css({"color": "darkred"});
+                }else{
+                  $(e.target).parent().attr('data-message', "Error: Please upload a PDF file");
+                  icon1.removeClass().addClass("fas fa-exclamation-circle");
+                  $(icon1).css({"color": "red"});
+
+                }
+
+            }
+            if(id === "document_fileExcel") {
+                var icon2 = $( "#excelIcon" );
+                if (extension === "xls") {
+                  icon2.removeClass().addClass("fas fa-file-excel")
+                  $(icon2).css({"color": "green"});
+                }else{
+                  $(e.target).parent().attr('data-message', "Error: Please upload a XLS file");
+                  icon2.removeClass().addClass("fas fa-exclamation-circle");
+                  $(icon2).css({"color": "red"});
+            }}
+
+
+          }
+        });
+
+        var fileNamePDF =
+        $('#upload').css('cursor', 'not-allowed')
+
+
+
+          {# $('input[type="file"]').on('change', function(e){#}
+          {#  var fileName = e.target.files[0].name;#}
+          {#  if (fileName) {#}
+          {#    $(e.target).parent().attr('data-message', fileName);#}
+          {#  }#}
+          {#;#}
+
+        {#$(document).on('drag dragstart dragend dragover dragenter dragleave drop', function(e) {#}
+        {#    if ($('input[type="file"]').length) {#}
+        {#        if (['dragover', 'dragenter'].indexOf(e.type) > -1) {#}
+        {#            if (window.dragTimeout)#}
+        {#                clearTimeout(window.dragTimeout);#}
+        {#            $('body').addClass('dragged');#}
+        {#        } else if (['dragleave', 'drop'].indexOf(e.type) > -1) {#}
+        {#            // Without the timeout, some dragleave events are triggered#}
+        {#            // when the :after appears, making it blink...#}
+        {#            window.dragTimeout = setTimeout(function() {#}
+        {#                $('body').removeClass('dragged');#}
+        {#            }, 100);#}
+        {#        }#}
+        {#    }#}
+        {#;#}
+      </script>
 
     {% endblock javascript %}
   </body>

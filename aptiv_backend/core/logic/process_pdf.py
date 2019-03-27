@@ -1,4 +1,4 @@
-import tabula, PyPDF2, re, os
+import tabula, PyPDF2, re, os, sys
 from django.conf import settings
 
 # Utility PDF fucntions
@@ -36,6 +36,16 @@ def pdf_to_tb_area(path, page, xl, yl, xr, yr):  # returns list of dataframes fo
 # End Parsing Methods
 
 
+def log(current, total):
+    str = ""
+    for i in range(current):
+        str += "#"
+    for i in range(total -current):
+        str += "/"
+    sys.stdout.write("\r" + str)
+    sys.stdout.flush()
+
+
 def processPDF(pathPDF):
     # pathPDF = self.pdf_file.path
 
@@ -46,14 +56,25 @@ def processPDF(pathPDF):
     pdf_reader = PyPDF2.PdfFileReader(pdf_file)
     num_pages = PyPDF2.PdfFileReader.getNumPages(pdf_reader)
 
+    current = 0
+    total = num_pages + num_pages -5
+
     # Validating Pages
     # Parses PDF to python and returns list of pages that exclude ignorable ones (marked has "ignore")
     pages = []
     pages.append(pdf_to_tb(pathPDF, 1))
+
+    current += 1
+    log(current, total)
+
     pages[0].append(pdf_to_tb_area(pathPDF, 1, 73.01, 1743.3, 1682.21, 2363.14))  # retrieves date table info
     for pageNumber in range(2, num_pages + 1):
         page = pdf_to_tb_area(pathPDF, pageNumber, 34.27, 32.78, 1649.43,
                               2360.16)  # only retrieve info thats inside the outer grid
+
+        current += 1
+        log(current, total)
+
         # Page Validation
         aux = False
         for pageNumb in range(0, len(page) - 1):
@@ -107,6 +128,9 @@ def processPDF(pathPDF):
     compare_id = page[5][0][7][row]
     # compare_id.replace(" ", "")
     # End of retrieving ID
+
+    current += 1
+    log(current, total)
 
     # Method for Checking Revision for Errors
     page = pages[0]
@@ -228,6 +252,10 @@ def processPDF(pathPDF):
 
     listCheckedAssembly = []
     for pagenum in range(len(pages) - 1, 1, -1):
+
+        current += 1
+        log(current, total)
+
         if pages[pagenum] == "ignore":
             if not pages[pagenum - 1] == "ignore":
 
@@ -268,6 +296,9 @@ def processPDF(pathPDF):
         error = "Not every mount from 1st page is defined through out PDF or otherwise, rest of analysis might be corrupted"
         errorList.append(error)
     # End of Retrieving dictVerticalAssembly
+
+    current += 1
+    log(current, total)
 
     # Building the final dictionaries
     dictComponents = {}
@@ -417,6 +448,7 @@ def processPDF(pathPDF):
                                         "qty"] += optional_additionalFeatures[value]["qty"]
         # End of Building the final dictionary
 
+
     # Retreiveing a list of pdf dictionaries
     list_PDF = {}
     list_PDF["Components"] = dictComponents
@@ -435,5 +467,8 @@ def processPDF(pathPDF):
     print(''.join(errorList))
     print(list_PDF)
     # End of Writing dictionaries to json
+
+    current += 1
+    log(current, total)
 
     return rev_letter, num_pages, compare_id.replace("\r", ""), list_PDF, ''.join(errorList)

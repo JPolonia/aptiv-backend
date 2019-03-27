@@ -1,4 +1,4 @@
-import xlrd, re
+import xlrd, re, sys
 
 # Uitliy Functions for Excel processing
 def get_sheet(name, path):
@@ -30,6 +30,17 @@ def get_StartRow(sheet, AssemblyRow, lenth_sheet):
     return startRow
 # End of utility fucntions
 
+
+def log(current, total):
+    str = ""
+    for i in range(current):
+        str += "#"
+    for i in range(total -current):
+        str += "/"
+    sys.stdout.write("\r" + str)
+    sys.stdout.flush()
+
+
 def processExcel(path):
     # path = self.excel_file.path
 
@@ -38,13 +49,19 @@ def processExcel(path):
     sheet_EBOM_DATA = get_sheet("EBOM Data", path)
     sheet_IDM = get_sheet("ITEM MASTER Data", path)
     sheet_APPROVAL = get_sheet("APPROVAL", path)
+    nRowsIDM = sheet_IDM.nrows
+    nRowsED = sheet_EBOM_DATA.nrows
+
+    total = nRowsED + nRowsIDM
+    current = 0
+    log(current, total)
 
     # Last rev letter and ID (CN number)
     rev_letter = sheet_APPROVAL.cell(4, 1).value
     compare_id = sheet_APPROVAL.cell(4, 3).value
 
     # Getting IMD assembly star row
-    nRowsIDM = sheet_IDM.nrows
+
     startRowIDM = 0
     for row in range(nRowsIDM):
         dummy = sheet_IDM.cell_value(row, 0)
@@ -57,6 +74,13 @@ def processExcel(path):
     weights = {}
     dict_RevAssemblies = {}
     for row in range(startRowIDM, nRowsIDM):
+
+        current += 1
+        log(current, total)
+
+        current += 1
+        log(current, total)
+
         name = sheet_IDM.cell(row, 0).value
 
         # Retrieving assembly number
@@ -120,8 +144,11 @@ def processExcel(path):
 
     # Getting DataList, containign all tables per each assembly/ mount
     list_Assemblies = []
-    nRowsED = sheet_EBOM_DATA.nrows
     for row in range(nRowsED):
+
+        current += 1
+        log(current, total)
+
         if sheet_EBOM_DATA.cell(row, 0).value == "Part Number":
             list_Assemblies.append(
                 [row, sheet_EBOM_DATA.cell(row, 1).value, sheet_EBOM_DATA.cell(row + 3, 1).value])
