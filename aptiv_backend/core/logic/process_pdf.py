@@ -461,11 +461,11 @@ def processPDF(pathPDF):
     # compare_json = json.dumps(list_PDF, indent=4, sort_keys=True)
     # compare_json = JSONField()
     # print(compare_json)
-    print(rev_letter)
-    print(num_pages)
-    print(compare_id.replace("\r", ""))
-    print(''.join(errorList))
-    print(list_PDF)
+    # print(rev_letter)
+    # print(num_pages)
+    # print(compare_id.replace("\r", ""))
+    # print(''.join(errorList))
+    # print(list_PDF)
     # End of Writing dictionaries to json
 
     current += 1
