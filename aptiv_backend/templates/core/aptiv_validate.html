@@ -67,7 +67,7 @@
                               <span class="input-group-addon" style="background-color:  #007bff"><i class="fas fa-folder-open " style="color:white"  aria-hidden="true"></i></span>
                               <div class="form-control" data-message="Click to select file or drag n drop it here">
                                   <div class = "before"><i id="pdfIcon" class="fa fa-cloud-upload"></i></div>
-                                  <input id="pdfInput" required="required" title="Click to select file or drag n drop it here" type="file" name="document[file]" id="document_filePDF">
+                                  <input id="pdfInput" required="required" title="Click to select file or drag n drop it here" type="file" name="document[file]" >
                               </div>
                           </div>
                     </div>
@@ -79,7 +79,7 @@
                               <span class="input-group-addon" style="background-color:  #007bff"><i class="fas fa-folder-open " style="color:white" aria-hidden="true"></i></span>
                               <div class="form-control" data-message="Click to select file or drag n drop it here">
                                   <div class = "before"><i id="excelIcon" class="fa fa-cloud-upload"></i></div>
-                                  <input id="excelInput" required="required" title="Click to select file or drag n drop it here" type="file" name="document[file]" id="document_fileExcel">
+                                  <input id="excelInput" required="required" title="Click to select file or drag n drop it here" type="file" name="document[file]">
                               </div>
                           </div>
                     </div>
@@ -179,5 +179,66 @@
   {{ block.super }}
     <script defer>
         bsCustomFileInput.init();
+
+            $('input[type="file"]').on('change', function(e){
+          var fileName = e.target.files[0].name;
+          if (fileName) {
+            var id = this.id;
+            var extension = fileName.replace(/^.*\./, '');
+            extension = extension.toLowerCase();
+            if(id === "pdfInput") {
+              var icon1 = $( "#pdfIcon" );
+                if (extension === "pdf") {
+                  icon1.removeClass().addClass("fas fa-file-pdf");
+                  $(icon1).css({"color": "darkred"});
+                }else{
+                  $(e.target).parent().attr('data-message', "Error: Please upload a PDF file");
+                  icon1.removeClass().addClass("fas fa-exclamation-circle");
+                  $(icon1).css({"color": "red"});
+                }
+
+            }
+            if(id === "excelInput") {
+                var icon2 = $( "#excelIcon" );
+                if (extension === "xls") {
+                  icon2.removeClass().addClass("fas fa-file-excel");
+                  $(icon2).css({"color": "green"});
+                }else{
+                  $(e.target).parent().attr('data-message', "Error: Please upload a XLS file");
+                  icon2.removeClass().addClass("fas fa-exclamation-circle");
+                  $(icon2).css({"color": "red"});
+            }}
+
+
+          }
+        });
+        {##}
+        {#var fileNamePDF =#}
+        {#$('#upload').css('cursor', 'not-allowed');#}
+
+
+
+          {# $('input[type="file"]').on('change', function(e){#}
+          {#  var fileName = e.target.files[0].name;#}
+          {#  if (fileName) {#}
+          {#    $(e.target).parent().attr('data-message', fileName);#}
+          {#  }#}
+          {#;#}
+
+        {#$(document).on('drag dragstart dragend dragover dragenter dragleave drop', function(e) {#}
+        {#    if ($('input[type="file"]').length) {#}
+        {#        if (['dragover', 'dragenter'].indexOf(e.type) > -1) {#}
+        {#            if (window.dragTimeout)#}
+        {#                clearTimeout(window.dragTimeout);#}
+        {#            $('body').addClass('dragged');#}
+        {#        } else if (['dragleave', 'drop'].indexOf(e.type) > -1) {#}
+        {#            // Without the timeout, some dragleave events are triggered#}
+        {#            // when the :after appears, making it blink...#}
+        {#            window.dragTimeout = setTimeout(function() {#}
+        {#                $('body').removeClass('dragged');#}
+        {#            }, 100);#}
+        {#        }#}
+        {#    }#}
+        {#;#}
     </script>
 {% endblock %}
