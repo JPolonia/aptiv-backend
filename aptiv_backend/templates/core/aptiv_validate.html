@@ -30,7 +30,7 @@
                     </div>
                   </div>
 
-                  <p class="text-warning"><small>Multiple file uploading is a feature we are working on, you can already do it in backend!</small></p>
+                  <p class="text-warning"><small>Preview & Multiple file uploading are features we are working on, you can already do it in backend!</small></p>
 
                   <div class="modal-footer">
                       <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -43,6 +43,7 @@
 
         <!-- Upload form-->
         <form class="text-center p-5 h-100 my-auto" enctype="multipart/form-data" method="post">
+            {%  csrf_token %}
 
             <h1 class=" mb-4">
                 <i class="fas fa-circle fa-lg align-middle " style="font-size: 0.7rem; color:  rgb(255, 81, 0)"></i>
@@ -67,7 +68,7 @@
                               <span class="input-group-addon" style="background-color:  #007bff"><i class="fas fa-folder-open " style="color:white"  aria-hidden="true"></i></span>
                               <div class="form-control" data-message="Click to select file or drag n drop it here">
                                   <div class = "before"><i id="pdfIcon" class="fa fa-cloud-upload"></i></div>
-                                  <input id="pdfInput" required="required" title="Click to select file or drag n drop it here" type="file" name="document[file]" >
+                                  <input id="pdfInput" required="required" title="Click to select file or drag n drop it here" type="file" name="documentPDF" >
                               </div>
                           </div>
                     </div>
@@ -106,7 +107,7 @@
 {#                        <p>You can also upload a .zip file with both documents</p>#}
                     </div>
                     <div class="col-lg-1">
-                      <a id="upload" href="/dummy" tabindex="500" title="Upload selected files" class="btn btn-default btn-secondary fileinput-upload fileinput-upload-button"><i class="fas fa-upload"></i>  <span class="hidden-xs">Upload</span></a>
+                      <a id="upload" href="/dummy" type="submit" tabindex="500" title="Upload selected files" class="btn btn-default btn-secondary fileinput-upload fileinput-upload-button"><i class="fas fa-upload"></i>  <span class="hidden-xs">Upload</span></a>
                     </div>
                 </div>
 {#                <div class="row">#}
@@ -189,6 +190,7 @@
             if(id === "pdfInput") {
               var icon1 = $( "#pdfIcon" );
                 if (extension === "pdf") {
+                                    $(e.target).parent().attr('data-message', fileName);
                   icon1.removeClass().addClass("fas fa-file-pdf");
                   $(icon1).css({"color": "darkred"});
                 }else{
@@ -201,6 +203,7 @@
             if(id === "excelInput") {
                 var icon2 = $( "#excelIcon" );
                 if (extension === "xls") {
+                  $(e.target).parent().attr('data-message', fileName);
                   icon2.removeClass().addClass("fas fa-file-excel");
                   $(icon2).css({"color": "green"});
                 }else{
