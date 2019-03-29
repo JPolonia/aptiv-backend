@@ -2,20 +2,35 @@ from django.shortcuts import render
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 
+from .models import Pdf, Excel, AptivValidate
+
 def aptiv_validate(request):
 
     filesList = []
-    if request.method == 'POST' and request.FILES['input2']:
-        files = request.FILES.getlist('input2')
+    if request.method == 'POST' and request.FILES['documentPDF'] and request.FILES['documentExcel']:
 
-        for file in files:
+        pdf_file = request.FILES['documentPDF']
+        excel_file = request.FILES['documentExcel']
 
-            filesList.append(file.name)
-            print(file)
+        excel = Excel(excel_file=excel_file)
+        excel.save()
 
-            fs = FileSystemStorage()
-            filename = fs.save(file.name, file)
-            uploaded_file_url = fs.url(filename)
+        pdf = Pdf(pdf_file=pdf_file)
+        pdf.save()
+
+        validation = AptivValidate(pdf=pdf, excel=excel)
+        validation.save()
+
+        # files = request.FILES.getlist('input2')
+        #
+        # for file in files:
+        #
+        #     filesList.append(file.name)
+        #     print(file)
+        #
+        #     fs = FileSystemStorage()
+        #     filename = fs.save(file.name, file)
+        #     uploaded_file_url = fs.url(filename)
 
             # if file.name.endswith('.pdf'):
             #     pdf = "files/" + fname
@@ -25,7 +40,7 @@ def aptiv_validate(request):
         # uploaded_file_url = fs.url(filename)
 
         return render(request, 'core/aptiv_validate.html', {
-            'uploaded_file_url': uploaded_file_url
+            'output': validation.output
         })
 
     return render(request, 'core/aptiv_validate.html')

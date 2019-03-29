@@ -80,7 +80,7 @@
                               <span class="input-group-addon" style="background-color:  #007bff"><i class="fas fa-folder-open " style="color:white" aria-hidden="true"></i></span>
                               <div class="form-control" data-message="Click to select file or drag n drop it here">
                                   <div class = "before"><i id="excelIcon" class="fa fa-cloud-upload"></i></div>
-                                  <input id="excelInput" required="required" title="Click to select file or drag n drop it here" type="file" name="document[file]">
+                                  <input id="excelInput" required="required" title="Click to select file or drag n drop it here" type="file" name="documentExcel">
                               </div>
                           </div>
                     </div>
@@ -107,8 +107,10 @@
 {#                        <p>You can also upload a .zip file with both documents</p>#}
                     </div>
                     <div class="col-lg-1">
-                      <a id="upload" href="#" type="submit" tabindex="500" title="Upload selected files" class="btn btn-default btn-secondary fileinput-upload fileinput-upload-button"><i class="fas fa-upload"></i>  <span class="hidden-xs">Upload</span></a>
-                      <input type="submit">
+{#                      <a id="upload" href="#" type="submit" tabindex="500" title="Upload selected files" class="btn btn-default btn-secondary fileinput-upload fileinput-upload-button"><i class="fas fa-upload"></i>  <span class="hidden-xs">Upload</span></a>#}
+                      <button class="btn btn-default btn-secondary fileinput-upload fileinput-upload-button" type="submit" title="Upload selected files">
+                        <i class="fas fa-upload"></i>  <span class="hidden-xs">Upload</span>
+                      </button>
                     </div>
                 </div>
 {#                <div class="row">#}
@@ -165,8 +167,9 @@
 
 
 
-  {% if uploaded_file_url %}
-    <p>File uploaded at: <a href="{{ uploaded_file_url }}">{{ uploaded_file_url }}</a></p>
+  {% if output %}
+    <h4>Output:</h4>
+    <span style="white-space: pre-line">{{ output }}</span>
   {% endif %}
 
 
@@ -183,35 +186,35 @@
         bsCustomFileInput.init();
 
             $('input[type="file"]').on('change', function(e){
-          var fileName = e.target.files[0].name;
-          if (fileName) {
-            var id = this.id;
-            var extension = fileName.replace(/^.*\./, '');
-            extension = extension.toLowerCase();
-            if(id === "pdfInput") {
-              var icon1 = $( "#pdfIcon" );
-                if (extension === "pdf") {
-                                    $(e.target).parent().attr('data-message', fileName);
-                  icon1.removeClass().addClass("fas fa-file-pdf");
-                  $(icon1).css({"color": "darkred"});
-                }else{
-                  $(e.target).parent().attr('data-message', "Error: Please upload a PDF file");
-                  icon1.removeClass().addClass("fas fa-exclamation-circle");
-                  $(icon1).css({"color": "red"});
-                }
+              var fileName = e.target.files[0].name;
+              if (fileName) {
+                var id = this.id;
+                var extension = fileName.replace(/^.*\./, '');
+                extension = extension.toLowerCase();
+                if(id === "pdfInput") {
+                  var icon1 = $( "#pdfIcon" );
+                    if (extension === "pdf") {
+                                        $(e.target).parent().attr('data-message', fileName);
+                      icon1.removeClass().addClass("fas fa-file-pdf");
+                      $(icon1).css({"color": "darkred"});
+                    }else{
+                      $(e.target).parent().attr('data-message', "Error: Please upload a PDF file");
+                      icon1.removeClass().addClass("fas fa-exclamation-circle");
+                      $(icon1).css({"color": "red"});
+                    }
 
-            }
-            if(id === "excelInput") {
-                var icon2 = $( "#excelIcon" );
-                if (extension === "xls") {
-                  $(e.target).parent().attr('data-message', fileName);
-                  icon2.removeClass().addClass("fas fa-file-excel");
-                  $(icon2).css({"color": "green"});
-                }else{
-                  $(e.target).parent().attr('data-message', "Error: Please upload a XLS file");
-                  icon2.removeClass().addClass("fas fa-exclamation-circle");
-                  $(icon2).css({"color": "red"});
-            }}
+                }
+                if(id === "excelInput") {
+                    var icon2 = $( "#excelIcon" );
+                    if (extension === "xls") {
+                      $(e.target).parent().attr('data-message', fileName);
+                      icon2.removeClass().addClass("fas fa-file-excel");
+                      $(icon2).css({"color": "green"});
+                    }else{
+                      $(e.target).parent().attr('data-message', "Error: Please upload a XLS file");
+                      icon2.removeClass().addClass("fas fa-exclamation-circle");
+                      $(icon2).css({"color": "red"});
+                }}
 
 
           }
